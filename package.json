@@ -18,23 +18,3 @@
     "node-fetch": "^3.3.2"
   }
 }
-{
-  "name": "mise-en-place-backend",
-  "version": "1.0.0",
-  "description": "Video recipe extraction backend for Mise en place",
-  "type": "module",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js",
-    "postinstall": "python3 -m pip install yt-dlp --quiet || pip install yt-dlp --quiet || pip3 install yt-dlp --quiet || true"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "node-fetch": "^3.3.2"
-  }
-}
